@@ -1,11 +1,11 @@
 
 //Set Up and Initial Code Structure
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
     
-    const form = document.getElementById('registration-form');
+    const form = document.getElementById("registration-form");
 
-    const feedbackDiv = document.getElementById('form-feedback');
+    const feedbackDiv = document.getElementById("form-feedback");
 
     
 //Form Submission and Event Prevention
