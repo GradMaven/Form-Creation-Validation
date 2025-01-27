@@ -1,7 +1,7 @@
 
 //Set Up and Initial Code Structure
 
- document.addEventListener("DOMContentLoaded", () => {
+  function validateForm() {
     
     const form = document.getElementById("registration-form");
 
@@ -55,6 +55,7 @@ if (isValid) {
 
 });
 
-});
+}
 
 
+document.addEventListener("DOMContentLoaded", validateForm);
