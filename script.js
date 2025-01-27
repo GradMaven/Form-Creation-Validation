@@ -1,5 +1,4 @@
 
-
 document.addEventListener("DOMContentLoaded", () => {
     
     const form = document.getElementById("registration-form");
@@ -29,7 +28,7 @@ if (username.length < 3) {
     messages.push("Username must be a minimum of 3 characters!");
 }
 
-if (!email.include("@") || !email.includes(".")) {
+if (!email.includes("@") || !email.includes(".")) {
     isValid = false;
     messages.push("Please enter a valid email address (e.g., user@example.com)!");
 }
