@@ -1,5 +1,7 @@
 
-document.addEventListener("DOMContentLoaded", () => {
+//Set Up and Initial Code Structure
+
+ document.addEventListener("DOMContentLoaded", () => {
     
     const form = document.getElementById("registration-form");
 
@@ -44,7 +46,7 @@ if (password.length < 8) {
 feedbackDiv.style.display = "block";
 if (isValid) {
     feedbackDiv.textContent = "Registration Successful";
-    feedbackDiv.style.color = "#28a745"
+    feedbackDiv.style.color = "#28a745";
 
 } else {
     feedbackDiv.innerHTML = messages.join("<br>");
