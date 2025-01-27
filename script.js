@@ -1,5 +1,4 @@
 
-//Set Up and Initial Code Structure
 
 document.addEventListener("DOMContentLoaded", () => {
     
